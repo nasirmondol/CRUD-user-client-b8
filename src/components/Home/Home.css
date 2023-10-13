@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parentHome {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+}
